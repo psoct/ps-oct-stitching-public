@@ -1,0 +1,16 @@
+name: ps-oct-stitching
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - openjdk=8
+  - maven
+  - git
+  - pip
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=11.8
+  - pip:
+      - -r requirements.txt
